@@ -85,10 +85,10 @@ Create `~/.hermes/jev-routes.json` to define your provider and model tiers:
       { "provider": "openrouter", "model": "google/gemini-3.8-flash" }
     ],
     "high": [
-      { "provider": "openrouter", "model": "deepseek/deepseek-v4-pro" }
+      { "provider": "openrouter", "model": "anthropic/claude-opus-5.5" }
     ],
     "premium": [
-      { "provider": "openrouter", "model": "anthropic/claude-3.7-sonnet" }
+      { "provider": "openrouter", "model": "anthropic/claude-fable-5.1" }
     ],
     "xpremium": []
   },
